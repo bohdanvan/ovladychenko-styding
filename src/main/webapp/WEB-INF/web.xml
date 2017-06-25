@@ -12,5 +12,14 @@
         <servlet-name>hello</servlet-name>
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
-    
+
+    <servlet>
+        <servlet-name>hello-user</servlet-name>
+        <servlet-class>com.ovladychenko.HelloUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>hello-user</servlet-name>
+        <url-pattern>/hello-user</url-pattern>
+    </servlet-mapping>
+
 </web-app>
